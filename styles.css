@@ -15,6 +15,7 @@ header, footer {
 
 header {
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .left-header {
@@ -47,9 +48,8 @@ footer {
 /* HERO */
 
 .hero {
-    padding: 100px 0;
     background-color: #1f2937;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -130,3 +130,24 @@ button {
     color: #bebebe;
 }
 
+/* TESTIMONIAL */
+
+.testi {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 870px;
+}
+
+.testi-from {
+    font-size: 20px;
+    text-align: right;
+}
