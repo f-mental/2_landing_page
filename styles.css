@@ -1,7 +1,35 @@
+/* MAIN */
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    height: 400px;
+}
+
+.left {
+    margin-left: 250px;
+}
+
+.right {
+    margin-right: 250px;
+}
+
+.cmntxt {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.palewht {
+    color: #f9faf8;
+}
+
+.strblue {
+    background-color: #3882f6;
+    border-color: #3882f6;
 }
 
 /* HEADER FOOTER */
@@ -18,26 +46,12 @@ header {
     padding-bottom: 100px;
 }
 
-.left-header {
-    margin-left: 250px;
-}
-
-.right-header {
-    margin-right: 250px;
-}
-
-a, p {
-    color:#e5e7eb;
-    font-size: 18px;
-}
-
 a {
     text-decoration: none;
     margin-right: 10px;
 }
 
 h2 {
-    color: #f9faf8;
     font-size: 24px;
 }
 
@@ -49,13 +63,11 @@ footer {
 
 .hero {
     background-color: #1f2937;
-    height: 400px;
     display: flex;
     justify-content: space-between;
 }
 
-.left-hero {
-    margin-left: 250px;
+.hero-text {
     width: 500px;
     height: 300px;
     display: flex;
@@ -64,9 +76,8 @@ footer {
     gap: 16px;
 }
 
-.right-hero {
-    margin-right: 250px;
-    background-color: gray;
+.hero-image {
+    background-color: #808080;
     width: 500px;
     height: 270px;
     display: flex;
@@ -75,14 +86,11 @@ footer {
 }
 
 h1 {
-    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
 
 button {
-   color: #f9faf8;
-   background-color: #3882f6;
    font-size: 18px;
    font-weight: 600;
    width: 125px;
@@ -94,7 +102,6 @@ button {
 /* INFORMATION */
 
 .information {
-    height: 400px;
     text-align: center;
 }
 
@@ -120,9 +127,11 @@ button {
 }
 
 .image-box {
+    background-color: #ffffff;
     height: 200px;
     width: 200px;
-    border: 5px #3882f6 solid;
+    border-width: 5px;
+    border-style: solid;
     border-radius: 12px;
 }
 
@@ -133,7 +142,6 @@ button {
 /* TESTIMONIAL */
 
 .testi {
-    height: 400px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -155,14 +163,12 @@ button {
 /* CTA */
 
 .cta {
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cta-container {
-    background-color: #3882f6;
     height: 200px;
     width: 1030px;
     border-radius: 12px;
